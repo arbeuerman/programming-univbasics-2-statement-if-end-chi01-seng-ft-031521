@@ -17,7 +17,6 @@ puts "Nope, it's not 2021" unless this_year == 2020
 current_time = Time.now
 print current_time
 current_second = current_time.to_s 
-print current_second
 if current_second.to_i % 2 == 0
   puts "Even!"
 else
