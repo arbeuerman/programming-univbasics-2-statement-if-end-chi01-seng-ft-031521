@@ -12,4 +12,4 @@ end
 
 puts "Do you know the year?"
 this_year = 2021
-puts "Yes, it's 2021" if this_year == 2021
+puts "Nope, it's not 2021" unless this_year == 2021
