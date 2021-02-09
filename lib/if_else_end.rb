@@ -1,6 +1,6 @@
 # Write your solution here
 
-chance_of_rain = 1
+chance_of_rain = 0.0000001
 puts "Let's go outside!"
 if chance_of_rain <= 0.25
   puts "Pack a sun shelter"
