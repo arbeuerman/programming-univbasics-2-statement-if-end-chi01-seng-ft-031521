@@ -9,3 +9,7 @@ elsif (chance_of_rain > 0.25 && chance_of_rain < 0.75)
 else
   puts "Stay home and read Hegel"
 end 
+
+puts "Do you know the year?"
+this_year = 2021
+puts "Yes, it's 2021" if this_year == 2021
