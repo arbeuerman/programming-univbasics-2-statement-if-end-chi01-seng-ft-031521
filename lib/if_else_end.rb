@@ -18,7 +18,7 @@ current_time = Time.now
 print current_time
 current_second = current_time.to_s 
 print current_second
-if current_second % 2 == 0
+if current_second.to_i % 2 == 0
   puts "Even!"
 else
   "Odd!"
