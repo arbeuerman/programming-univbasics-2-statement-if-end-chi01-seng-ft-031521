@@ -11,5 +11,5 @@ else
 end 
 
 puts "Do you know the year?"
-this_year = 2021
+this_year = 2020
 puts "Nope, it's not 2021" unless this_year == 2021
